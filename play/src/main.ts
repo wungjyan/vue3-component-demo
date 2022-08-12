@@ -3,8 +3,9 @@ import App from "./App.vue"
 
 import "@wj/theme-chalk/src/index.scss"
 import Icon from "@wj/components/icon"
+import Tree from "@wj/components/tree"
 
-const plugins = [Icon]
+const plugins = [Icon, Tree]
 
 const app = createApp(App)
 
