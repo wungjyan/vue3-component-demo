@@ -1,12 +1,13 @@
-import { createApp } from "vue";
-import App from "./App.vue";
+import { createApp } from "vue"
+import App from "./App.vue"
 
-import Icon from "@wj/components/icon";
+import "@wj/theme-chalk/src/index.scss"
+import Icon from "@wj/components/icon"
 
-const plugins = [Icon];
+const plugins = [Icon]
 
-const app = createApp(App);
+const app = createApp(App)
 
-plugins.forEach((plugin) => app.use(plugin));
+plugins.forEach((plugin) => app.use(plugin))
 
-app.mount("#app");
+app.mount("#app")

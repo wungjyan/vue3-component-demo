@@ -18,6 +18,13 @@
     "vue": "^3.2.37"
   },
   "devDependencies": {
-    "unplugin-vue-define-options": "^0.7.1"
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "eslint": "^8.21.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "recommended": "link:@vue/typescript/recommended",
+    "sass": "^1.54.3",
+    "unplugin-vue-define-options": "^0.7.1",
+    "vue-eslint-parser": "^9.0.3"
   }
 }
